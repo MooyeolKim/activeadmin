@@ -1,4 +1,17 @@
 GIT
+  remote: https://github.com/VitaliiLazebnyi/devise.git
+  revision: b426738b4c7e441199acf6d7571e78d9cfe9c8b2
+  ref: b426738b4c7e441199acf6d7571e78d9cfe9c8b2
+  branch: deprecated_warning_ruby_27
+  specs:
+    devise (4.7.1)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+
+GIT
   remote: https://github.com/activeadmin/arbre.git
   revision: b546d7a10b95001cb7bd1273bbaa55172de77e98
   ref: b546d7a10b95001cb7bd1273bbaa55172de77e98
@@ -26,18 +39,6 @@ GIT
   specs:
     formtastic (3.2.0.pre)
       actionpack (>= 5.2.0)
-
-GIT
-  remote: https://github.com/heartcombo/devise.git
-  revision: 70f3ae24e00906814b63fe1998c861ca45fbecf6
-  ref: 70f3ae24e00906814b63fe1998c861ca45fbecf6
-  specs:
-    devise (4.7.1)
-      bcrypt (~> 3.0)
-      orm_adapter (~> 0.1)
-      railties (>= 4.1.0)
-      responders
-      warden (~> 1.2.3)
 
 GIT
   remote: https://github.com/rails/rails.git
