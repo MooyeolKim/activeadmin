@@ -29,13 +29,13 @@ group :test do
   gem 'db-query-matchers', '0.10.0'
 
   gem 'simplecov', '0.17.1', require: false # Test coverage generator. Go to /coverage/ after running tests
-  gem 'cucumber-rails', '~> 2.0', github: 'cucumber/cucumber-rails', ref: '8c22f3733e7d1b04142392d757ef70d4814c310d', require: false
+  gem 'cucumber-rails', '~> 2.0', github: 'cucumber/cucumber-rails', branch: 'feature/enable_cucumber_4', ref: '5689fa8566b02ffa2bc10d3486590b890229c9c0', require: false
   gem 'cucumber'
   gem 'database_cleaner'
   gem 'jasmine'
   gem 'jasmine-core', '2.99.2' # last release with Ruby 2.2 support.
   gem 'launchy'
-  gem 'parallel_tests', '~> 2.26'
+  gem 'parallel_tests', github: 'deivid-rodriguez/parallel_tests', branch: 'cucumber_4_support'
   gem 'rails-i18n' # Provides default i18n for many languages
   gem 'rspec-rails'
   gem 'rspec', github: 'rspec/rspec', ref: '3e6c0fb9c9ec68eddd409cfe7b3eb077b390b302'
